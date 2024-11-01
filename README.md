@@ -63,6 +63,9 @@ Before you dive in, make sure you have the following:
 - **Logging Changes**: 
   The `log_change` function keeps track of every change like a diary, noting the timestamp, user, event type, and file path in `change_log.txt`. Because every change deserves to be remembered!
 
+- **SHA-512 Hashing**:
+  The application calculates the `SHA-512` hash of files to verify their integrity before and after changes. This ensures that your files are safe and sound!
+
 - **Notifications**: 
   The `show_popup` function makes sure you never miss a beat with a friendly Tkinter pop-up to alert you of file changes.
 
