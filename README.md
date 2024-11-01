@@ -2,7 +2,7 @@
 
 ##  Overview
 
-Welcome to the **File Integrity Monitoring Tool**! This little Python application is your best buddy for keeping an eye on your precious files. Think of it as your personal watchdog, sniffing out any changes in specified directories and giving you a heads-up when something goes awry. Whether files are modified, created, or deleted, this tool has got your back with real-time notifications and a handy logbook for all the action!
+Welcome to the **File Integrity Monitoring Tool**! This little Python application is your best buddy for keeping an eye on your precious files. Think of it as your personal watchdog, sniffing out any changes in specified directories and giving you a heads-up when something goes wrong. Whether files are modified, created, or deleted, this tool has got your back with real-time notifications and a handy logbook for all the action!
 
 ##  Key Features
 
@@ -14,7 +14,8 @@ Welcome to the **File Integrity Monitoring Tool**! This little Python applicatio
 
 Before you dive in, make sure you have the following:
 
-- **Python 3.x** (because we like to keep things fresh!)
+- **Python 3.x** (because I like to keep things fresh!)
+- Also don't forget your test file, create a txt file with some few words in it in the same directory
 - Required libraries:
   - `watchdog`
   - `PyYAML`
