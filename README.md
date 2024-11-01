@@ -1,7 +1,3 @@
-Here’s a more engaging and playful version of the documentation for your file integrity monitoring tool. Feel free to tweak anything you like!
-
----
-
 #  File Integrity Monitoring Tool 
 
 ##  Overview
