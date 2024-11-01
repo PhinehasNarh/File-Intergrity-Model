@@ -9,6 +9,7 @@ Welcome to the **File Integrity Monitoring Tool**! This little Python applicatio
 - **Real-time file monitoring**: Never miss a beat! This tool tracks changes to your files or directories like a hawk.
 - **Customizable alerts**: Get notified with a fun Tkinter pop-up whenever there’s a change—no more surprises!
 - **Detailed change logs**: Every change is documented in a neat YAML format. Who doesn’t love a good logbook?
+- **SHA-512 Integration**: Keeps your file integrity in check with the powerful SHA-512 hashing algorithm.
 
 ##  Requirements
 
