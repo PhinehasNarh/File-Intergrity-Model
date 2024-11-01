@@ -2,12 +2,12 @@
 
 ##  Overview
 
-Welcome to the **File Integrity Monitoring Tool**! This little Python application is your best buddy for keeping an eye on your precious files. Think of it as your personal watchdog, sniffing out any changes in specified directories and giving you a heads-up when something goes wrong. Whether files are modified, created, or deleted, this tool has got your back with real-time notifications and a handy logbook for all the action!
+Welcome to the **File Integrity Monitoring Tool**! This little Python application is your best buddy for keeping an eye on your precious files. Think of it as your personal watchdog, sniffing out any changes in specified directories and giving you a heads-up when something goes wrong. Whether files are modified, created, or deleted, this tool has got your back with real-time notifications and a handy logbook for all the action.
 
 ##  Key Features
 
 - **Real-time file monitoring**: Never miss a beat! This tool tracks changes to your files or directories like a hawk.
-- **Customizable alerts**: Get notified with a fun Tkinter pop-up whenever there’s a change—no more surprises!
+- **Customizable alerts**: Get notified with a fun Tkinter pop-up whenever there’s a change—no more surprises
 - **Detailed change logs**: Every change is documented in a neat YAML format. Who doesn’t love a good logbook?
 - **SHA-512 Integration**: Keeps your file integrity in check with the powerful SHA-512 hashing algorithm.
 
@@ -15,12 +15,12 @@ Welcome to the **File Integrity Monitoring Tool**! This little Python applicatio
 
 Before you dive in, make sure you have the following:
 
-- **Python 3.x** (because I like to keep things fresh!)
+- **Python 3.x** (because I like to keep things fresh)
 - Also don't forget your test file, create a txt file with some few words in it in the same directory
 - Required libraries:
   - `watchdog`
   - `PyYAML`
-  - `tkinter` (this one’s a part of the Python package, so you’re all set!)
+  - `tkinter` (this one’s a part of the Python package, so you’re all set)
 
 ##  Installation
 
@@ -48,23 +48,23 @@ Before you dive in, make sure you have the following:
    ```
 
 2. **Get your monitor on**:
-   - Now, go ahead and modify, create, or delete files in your specified directory to trigger those pop-up alerts and log entries. It’s like playing a game of whack-a-mole with your files!
+   - Now, go ahead and modify, create, or delete files in your specified directory to trigger those pop-up alerts and log entries. 
 
 3. **Check out the change logs**:
-   - Want to see what’s been happening? Open the `change_log.txt` file in the specified directory to browse through all the juicy details in YAML format. Log lovers rejoice!
+   - Want to see what’s been happening? Open the `change_log.txt` file in the specified directory to browse through all the juicy details in YAML format. Log lovers rejoice! I left a sample there, to help you know what to expect in the log file 
 
 ##  Code Explanation
 
 ###  Key Components
 
 - **File Change Detection**: 
-  The `FileChangeHandler` class is your event ninja, extending `FileSystemEventHandler` from the `watchdog` library to handle file events. It’s like having a superpower for file management!
+  The `FileChangeHandler` class is your event ninja, extending `FileSystemEventHandler` from the `watchdog` library to handle file events. It’s like having a superpower for file management
 
 - **Logging Changes**: 
-  The `log_change` function keeps track of every change like a diary, noting the timestamp, user, event type, and file path in `change_log.txt`. Because every change deserves to be remembered!
+  The `log_change` function keeps track of every change like a diary, noting the timestamp, user, event type, and file path in `change_log.txt`. Because every change deserves to be remembered
 
 - **SHA-512 Hashing**:
-  The application calculates the `SHA-512` hash of files to verify their integrity before and after changes. This ensures that your files are safe and sound!
+  The application calculates the `SHA-512` hash of files to verify their integrity before and after changes. This ensures that your files are safe and sound
 
 - **Notifications**: 
   The `show_popup` function makes sure you never miss a beat with a friendly Tkinter pop-up to alert you of file changes.
@@ -74,10 +74,10 @@ Before you dive in, make sure you have the following:
 
 ##  Contributing
 
-Want to jump in and help out? Awesome! Feel free to fork the repo and submit a pull request. I love enhancements, bug fixes, or any cool new features you want to add! 
+Want to jump in and help out? Awesome! Feel free to fork the repo and submit a pull request. I love enhancements, bug fixes, or any cool new features you want to add
 
 ##  License
 
-This project is licensed under the MIT License - check out the [LICENSE](LICENSE) file for all the details!
+This project is licensed under the MIT License - check out the [LICENSE](LICENSE) file for all the details.
 
 ### #ph1n3y
