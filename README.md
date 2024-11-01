@@ -74,8 +74,10 @@ Before you dive in, make sure you have the following:
 
 ##  Contributing
 
-Want to jump in and help out? Awesome! Feel free to fork the repo and submit a pull request. We love enhancements, bug fixes, or any cool new features you want to add! 
+Want to jump in and help out? Awesome! Feel free to fork the repo and submit a pull request. I love enhancements, bug fixes, or any cool new features you want to add! 
 
 ##  License
 
 This project is licensed under the MIT License - check out the [LICENSE](LICENSE) file for all the details!
+
+### #ph1n3y
