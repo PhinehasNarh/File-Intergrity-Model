@@ -55,9 +55,9 @@ Before you dive in, make sure you have the following:
 3. **Check out the change logs**:
    - Want to see what’s been happening? Open the `change_log.txt` file in the specified directory to browse through all the juicy details in YAML format. Log lovers rejoice!
 
-## 📝 Code Explanation
+##  Code Explanation
 
-### 🛠️ Key Components
+###  Key Components
 
 - **File Change Detection**: 
   The `FileChangeHandler` class is your event ninja, extending `FileSystemEventHandler` from the `watchdog` library to handle file events. It’s like having a superpower for file management!
@@ -71,14 +71,10 @@ Before you dive in, make sure you have the following:
 - **Debounce Mechanism**: 
   No one likes getting bombarded with alerts! Our debounce mechanism ensures that notifications are limited to just one within a specified time frame when changes happen in quick succession. 
 
-## 🤝 Contributing
+##  Contributing
 
 Want to jump in and help out? Awesome! Feel free to fork the repo and submit a pull request. We love enhancements, bug fixes, or any cool new features you want to add! 
 
-## 📜 License
+##  License
 
 This project is licensed under the MIT License - check out the [LICENSE](LICENSE) file for all the details!
-
----
-
-There you go! This playful tone should make your documentation more engaging and fun for anyone who reads it. Let me know if you need any more adjustments or additional sections!
