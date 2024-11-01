@@ -1,3 +1,5 @@
+# I usually don't comment my code but here I am
+
 import hashlib
 import os
 import time
