@@ -31,7 +31,6 @@ Before you dive in, make sure you have the following:
    ```
 
 2. **Install the required libraries**:
-   Get those libraries buzzing by running:
    ```bash
    pip install watchdog pyyaml
    ```
